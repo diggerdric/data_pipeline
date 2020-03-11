@@ -7,14 +7,14 @@ There are multiple methods that can be used to setup the environment, however, t
 
 ### Cloud - Automatic (Preferred)
 
-Click [this link](https://console.cloud.google.com/cloudshell/open?cloudshell_image=gcr.io/graphite-cloud-shell-images/terraform:latest&cloudshell_git_repo=https://github.com/diggerdric/data_pipeline_acc.git&cloudshell_git_branch=master&cloudshell_working_dir=./&open_in_editor=./main.tf&cloudshell_tutorial=./README.md) to open a Cloud Shell in GCP with this repo.
+Click [this link](https://console.cloud.google.com/cloudshell/open?cloudshell_image=gcr.io/graphite-cloud-shell-images/terraform:latest&cloudshell_git_repo=https://github.com/diggerdric/data_pipeline.git&cloudshell_git_branch=master&cloudshell_working_dir=./&open_in_editor=./main.tf&cloudshell_tutorial=./README.md) to open a Cloud Shell in GCP with this repo.
 
 ### Cloud - Manual
 
 In the Cloud Console in GCP, enter the following code and then click "Open in Editor" when prompted:
 
 ```bash
-cloudshell_open --repo_url "https://github.com/diggerdric/data_pipeline_acc" --dir "./" --page "editor" --tutorial "./README.md" --open_in_editor "./main.tf" --git_branch "master"
+cloudshell_open --repo_url "https://github.com/diggerdric/data_pipeline" --dir "./" --page "editor" --tutorial "./README.md" --open_in_editor "./main.tf" --git_branch "master"
 ```
 ### Local
 
